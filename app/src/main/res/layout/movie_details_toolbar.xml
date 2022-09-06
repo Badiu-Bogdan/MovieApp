@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+    <FrameLayout
+        android:id="@+id/back_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="start"
+        android:background="@drawable/transparent_button_with_ring"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/back_arrow" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/add_to_favorites"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:background="@drawable/transparent_button_with_ring"
+        android:clickable="true"
+        android:layout_marginRight="15dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/fav_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/ic_favorite_border"
+            app:tint="@color/white" />
+    </FrameLayout>
+</androidx.appcompat.widget.Toolbar>

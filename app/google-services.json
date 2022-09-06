@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1068319366522",
+    "project_id": "smartestmovieapp-45217",
+    "storage_bucket": "smartestmovieapp-45217.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068319366522:android:ad069d99945b4344f64ac3",
+        "android_client_info": {
+          "package_name": "com.example.smartestmovieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068319366522-rqhgjid6433f7iflep0gkihi85757mk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartestmovieapp",
+            "certificate_hash": "fa214f81195a80228d5fc9ca93f8d9ffeda8d388"
+          }
+        },
+        {
+          "client_id": "1068319366522-b608s99q745267qbarulo6upea34m49v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGZGl5aw2OhSPzFV4-hEpVxYAVI93j6S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068319366522-b608s99q745267qbarulo6upea34m49v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

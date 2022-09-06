@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- First theme-->
+    <style name="Theme.SmartestMovieApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/popupMenuTextAppearanceSmall</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/popupMenuTextAppearanceLarge</item>
+    </style>
+
+
+    <!-- Second theme -->
+    <style name="Theme.SmartestMovieApp.SecondTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorSecondary">@color/light_green</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/popupMenuTextAppearanceSmall</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/popupMenuTextAppearanceLarge</item>
+    </style>
+
+
+    <!-- other styles -->
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">?colorPrimary</item>
+    </style>
+
+    <style name="popupMenuTextAppearanceSmall" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+        <item name="android:textColor">@color/purple_200</item>
+    </style>
+
+    <style name="popupMenuTextAppearanceLarge" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SmartestMovieApp">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+        <item name="android:statusBarColor" >@android:color/transparent</item>
+    </style>
+
+</resources>

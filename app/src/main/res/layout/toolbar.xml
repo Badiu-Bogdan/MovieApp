@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <FrameLayout
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="@dimen/avatar_start_margin"
+            android:layout_marginTop="@dimen/avatar_top_margin"
+            android:background="@drawable/circle_gradient"
+            android:padding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/avatarPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shapeAppearanceOverlay="@style/toolbar_avatar_style"
+                app:srcCompat="@drawable/tzanca" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/account_name_start_margin"
+            android:layout_marginTop="@dimen/account_name_top_margin"
+            android:fontFamily="@font/proxima_nova_alt_regular"
+            android:text="Hello, Andrei"
+            android:textColor="@color/white"
+            android:textSize="@dimen/hello_text_size"
+            app:layout_constraintBottom_toTopOf="@id/textViewTitle"
+            app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/favourite_textView_start_margin"
+            android:layout_marginTop="@dimen/favourite_textView_top_margin"
+            android:fontFamily="@font/proxima_nova_alt_thin"
+            android:text="@string/favourite_movies"
+            android:textColor="@color/text_grey"
+            app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+            app:layout_constraintTop_toBottomOf="@id/textViewName" />
+
+        <FrameLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/icon_stroke_gradient"
+            android:padding="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageViewBell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?colorPrimary"
+                app:shapeAppearanceOverlay="@style/bell_style"
+                app:srcCompat="@drawable/ic_notification" />
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_bar_height"
+            android:layout_marginStart="@dimen/search_bar_margin_start"
+            android:layout_marginTop="@dimen/editTextSearch_top_margin"
+            android:layout_marginEnd="@dimen/bottom_nav_margin_end"
+            android:background="@drawable/icon_stroke_gradient"
+            android:drawableStart="@drawable/drawable_start_search_bar"
+            android:drawablePadding="@dimen/search_bar_drawable_padding"
+            android:paddingStart="@dimen/search_bar_padding_start"
+            android:paddingEnd="@dimen/search_bar_padding_end"
+            android:paddingVertical="@dimen/search_bar_vertical_padding"
+            android:ems="10"
+            android:hint="@string/search_movie"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/text_grey"
+            android:textSize="@dimen/search_bar_text_size"
+            android:fontFamily="@font/proxima_nova_alt_light"
+            app:layout_constraintTop_toBottomOf="@id/imageViewAvatar"
+            tools:layout_editor_absoluteX="20dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

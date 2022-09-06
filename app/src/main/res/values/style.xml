@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WatchTrailerStyle" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@drawable/gradient_button</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+    </style>
+
+</resources>

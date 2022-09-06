@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notif_menu_movie_details"
+        android:title="Movie details"/>
+
+    <item
+        android:id="@+id/notif_menu_add_fav"
+        android:title="Add to favourites"/>
+
+    <item
+        android:id="@+id/notif_menu_delete"
+        android:title="Delete notification" />
+</menu>

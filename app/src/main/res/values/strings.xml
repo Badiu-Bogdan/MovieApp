@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SmartestMovieApp</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="greeting">Welcome Back!</string>
+    <string name="greeting_description">We\'re happy to see you. You can Login and continue searching for your favourite movies and cinemas.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_alternative">or Sign in with</string>
+    <string name="no_account">I don\'t have an account </string>
+    <string name="username"><font size="15">Username</font></string>
+    <string name="password"><font size="15">Password</font></string>
+    <string name="create_account">Create an account</string>
+    <string name="create_account_description">Create an account so you can use the full experience of the SMA application.</string>
+    <string name="sign_up_alternative">or Sign up with</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="account_already_created">I already have an account </string>
+    <string name="email"><font size="15">Email</font></string>
+    <string name="confirm_password"><font size="15">Confirm password</font></string>
+    <string name="trailers">Trailers</string>
+    <string name="viewAll">View all ></string>
+    <string name="search_movie">Search movie ...</string>
+    <string name="favourite_movies">See Your Favourite Movies</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="favorites_fragment_title">Favourites</string>
+    <string name="notifications_text_view">NOTIFICATIONS</string>
+    <string name="home_bottom_navigation">Home</string>
+    <string name="favourites_bottom_navigation">Favourites</string>
+    <string name="cinemas_bottom_navigation">Cinemas</string>
+    <string name="settings_bottom_navigation">Settings</string>
+    <string-array name="notification_drop_down_menu">
+        <item>Movie details</item>
+        <item>Add to favourites</item>
+        <item>Delete notification</item>
+    </string-array>
+    <string name="mock_details">Eng | Action, Sci-Fi | 3h10m</string>
+    <string name="story_line">Story line</string>
+    <string name="mock_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </string>
+    <string name="check_available">Check availability</string>
+    <string name="similar_movies">Similar movies</string>
+    <string name="nearby">Nearby</string>
+    <string name="cinemas_map">See Cinemas Map</string>
+    <string name="text_view_discover">DISCOVER</string>
+    <string name="text_view_settings_nofications">NOTIFICATIONS</string>
+    <string name="text_view_settings_themes">THEMES</string>
+    <string name="schedule">Schedule</string>
+    <string name="mock_schedule">Day</string>
+    <string name="address">address</string>
+    <string name="monday">Monday 29.08.2022</string>
+    <string name="tuesday">Tuesday 30.08.2022</string>
+    <string name="wednesday">Wednesday 31.08.2022</string>
+    <string name="thursday">Thursday 01.09.2022</string>
+    <string name="friday">Friday 02.09.2022</string>
+    <string name="saturday">Saturday 03.09.2022</string>
+    <string name="sunday">Sunday 04.09.2022</string>
+    <string name="google_maps_key">AIzaSyCjFCUHLYDxaKds54DN1LEAX_3rA6gIkGM</string>
+    <string name="cinemas">Cinemas</string>
+    <string name="logout">Log Out</string>
+</resources>
